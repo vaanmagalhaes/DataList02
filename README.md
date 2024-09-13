@@ -1,5 +1,5 @@
 # DataList2
-/n
+
 Lista como Estrutura Encadeada
 1. Implemente a função remove utilizando a função busca. 
 
