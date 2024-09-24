@@ -55,4 +55,4 @@ l.insert_at_beginning(0)
 print(l)
 
 l.remove_duplicates()
-print(l)
+print(f'List after removal: {l}')
