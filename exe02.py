@@ -26,14 +26,14 @@ class LinkedList:
         new_nodo.next = self.head
         self.head = new_nodo
 
-    def remove_duplicates(self):
-        current = self.head
+    def remove_duplicates(LinkedList):
+        current = l.head
         while current:
-            next_distint = current.next
-            while next_distint and next_distint.data == current.data:
-                next_distint = next_distint.next
-                current.next = next_distint
-                current = next_distint
+            next_distinct = current.next
+            while next_distinct and next_distinct.data == current.data:
+                next_distinct = next_distinct.next
+            current.next = next_distinct
+            current = next_distinct
         return LinkedList
 
 
@@ -52,4 +52,7 @@ l.insert_at_beginning(3)
 l.insert_at_beginning(2)
 l.insert_at_beginning(1)
 l.insert_at_beginning(0)
+print(l)
+
+l.remove_duplicates()
 print(l)
